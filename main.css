@@ -1,0 +1,195 @@
+/*General Styling*/
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+	appearance: none;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	color: navy;
+}
+
+a {
+	font-style: none;
+}
+
+p {
+	text-align: center;
+}
+
+
+/*Jeopardy Board*/
+
+table {
+	margin: 30px auto;
+	height: 450px;
+	width: 1000px;
+	border: 2px solid black;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
+
+td {
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+button {
+	font-size: 1.2em;
+	background: -webkit-linear-gradient(top, dodgerblue, #04f);
+	border: none;
+	
+}
+
+button:hover {
+	background-color: #05e;
+}
+
+.amount {
+	background-color: dodgerblue;
+	font: bold 1.1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.amount td {
+	background: -webkit-linear-gradient(top, dodgerblue, #04f);
+    background: -moz-linear-gradient(top, dodgerblue, #0000ff);
+    background: -o-linear-gradient(top, dodgerblue, #0000ff);
+    background: -ms-linear-gradient(top, dodgerblue, #0000ff);
+    background: linear-gradient(top, dodgerblue, #0000ff);
+     
+    -webkit-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+     
+/*
+    -webkit-box-shadow: 0 8px 0 #1b383b;
+    -moz-box-shadow: 0 8px 0 #1b383b;
+    box-shadow: 0 8px 0 #1b383b;
+*/
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.5);
+}
+
+.amount td:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #05e, #05e);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+
+#category td {
+	font: bold 1.4em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-color: white;
+	cursor: auto;
+}
+
+footer a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	margin-top: 75px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+
+	#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:550px;
+	z-index: 12;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: dodgerblue; font-size:19px; padding:10px; color:white; }
+#dialogbox > div > #dialogboxbody{ background: white; padding:30px; color: black; }
+#dialogbox > div > #dialogboxfoot{ background: white; padding:10px; text-align:right; }
+
+
+
+
+/*Home Page styling*/
+
+h1 {
+	color: dodgerblue;
+/*
+   text-shadow:
+       3px 3px 0 #000,
+     -2px -2px 0 navy,  
+      2px -2px 0 navy,
+      -2px 2px 0 navy,
+       2px 2px 0 navy;
+*/
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
+	margin-top: none;
+}
+
+.startButton {
+	display: block;
+	width: 200px;
+	text-align: center;
+	font-size: 2em;
+	padding: 15px;
+	margin: 30px auto;
+	color: aliceblue;
+	text-decoration: none;
+	
+	background: -webkit-linear-gradient(top, dodgerblue, #04f);
+    background: -moz-linear-gradient(top, dodgerblue, #04f);
+    background: -o-linear-gradient(top, dodgerblue, #04f);
+    background: -ms-linear-gradient(top, dodgerblue, #04f);
+    background: linear-gradient(top, dodgerblue, #04f);
+     
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+     
+    -webkit-box-shadow: 0 8px 0 #1b383b;
+    -moz-box-shadow: 0 8px 0 #1b383b;
+    box-shadow: 0 8px 0 #1b383b;
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.5);
+}
+
+.startButton:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #05e, #05e);
+    background: -moz-linear-gradient(top, #05e, #05e);
+    background: -o-linear-gradient(top, #05e, #05e);
+    background: -ms-linear-gradient(top, #05e, #05e);
+    background: linear-gradient(top, #05e, #05e);
+}
+
+
+.startButton:first-child {
+	margin-top: 50px;
+}
