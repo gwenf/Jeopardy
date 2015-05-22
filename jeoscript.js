@@ -25,9 +25,9 @@ var Alert = new CustomAlert();
 
 function disableMoney() {
     var x = document.getElementsByClassName(this);
-		if
-    x.disabled = true;
-		x.style.opacity = .8;
+		if(x.disabled == true){
+			x.style.opacity = .8;
+		}
 }
 
 
