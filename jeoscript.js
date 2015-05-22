@@ -21,7 +21,7 @@ function CustomAlert() {
 var Alert = new CustomAlert();
 
 
-
+//supposed to disable <td> elements from being clicked multiple times in game
 
 function disableMoney() {
     var x = document.getElementsByClassName(this);
