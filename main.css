@@ -195,3 +195,10 @@ h1 {
 .startButton:first-child {
 	margin-top: 50px;
 }
+
+.asked{
+	visibility:hidden;}
+/*.asked*/.just{
+	visibility:visible;
+	background:gray !important;
+	opacity: 0.2;}

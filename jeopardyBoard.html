@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta charset = "UTF-8">
-	<link rel='stylesheet' href='main.css'>
+	<meta charset="UTF-8">
 	<title>Jeopardy! Zion Edition</title>
+	<link rel="stylesheet" href="main.css" media="all">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
 	<script src="jeoscript.js" type="text/javascript"></script>
 	<script src="jeoquery.js" type="text/javascript"></script>
 </head>
 
 <body>
 	
-		<div id="dialogoverlay"></div>
-<div id="dialogbox">
-  <div>
-    <div id="dialogboxhead"></div>
-    <div id="dialogboxbody"></div>
-    <div id="dialogboxfoot"></div>
-  </div>
-</div>
+	<div id="dialogoverlay"></div>
+	<div id="dialogbox">
+		<div>
+			<div id="dialogboxhead"></div>
+			<div id="dialogboxbody"></div>
+			<div id="dialogboxfoot"></div>
+		</div>
+	</div>
 
 	<table>
-	<tr id="category">
-		<th>Category 1</th>
-		<th>Category 2</th>
-		<th>Category 3</th>
-		<th>Category 4</th>
-		<th>Category 5</th>
-	</tr>
-	<tr class="amount">
-		<td class="money" id="c1q1" onclick="Alert.render('Question1'); disableMoney()">$100</td>
-		<td id="c2q1" onclick="Alert.render('Question1');">$100</td>
-		<td id="c3q1" onclick="Alert.render('Question1');">$100</td>
-		<td id="c4q1" onclick="Alert.render('Question1');">$100</td>
-		<td id="c5q1" onclick="Alert.render('Question1');">$100</td>
-	</tr>
-	<tr class="amount">
-		<td onclick="Alert.render('Question1');"><a id="c1q2" href="#">$200</a></td>
-		<td onclick="Alert.render('Question1');"><a id="c2q2" href="#">$200</a></td>
-		<td onclick="Alert.render('Question1');"><a id="c3q2" href="#">$200</a></td>
-		<td onclick="Alert.render('Question1');"><a id="c4q3" href="#">$200</a></td>
-		<td onclick="Alert.render('Question1');"><a id="c5q4" href="#">$200</a></td>
-	</tr>
-	<tr class='amount'>
-		<td onclick="Alert.render('Question1');">$300</td>
-		<td onclick="Alert.render('Question1');">$300</td>
-		<td onclick="Alert.render('Question1');">$300</td>
-		<td onclick="Alert.render('Question1');">$300</td>
-		<td onclick="Alert.render('Question1');">$300</td>
-	</tr>
-	<tr class='amount'>
-		<td onclick="Alert.render('Question1');">$400</td>
-		<td onclick="Alert.render('Question1');">$400</td>
-		<td onclick="Alert.render('Question1');">$400</td>
-		<td onclick="Alert.render('Question1');">$400</td>
-		<td onclick="Alert.render('Question1');">$400</td>
-	</tr>
-	<tr class='amount'>
-		<td onclick="Alert.render('Question1');">$500</td>
-		<td onclick="Alert.render('Question1');">$500</td>
-		<td onclick="Alert.render('Question1');">$500</td>
-		<td onclick="Alert.render('Question1');">$500</td>
-		<td onclick="Alert.render('Question1');">$500</td>
-	</tr>
+		<tr id="category">
+			<th>Category 1</th>
+			<th>Category 2</th>
+			<th>Category 3</th>
+			<th>Category 4</th>
+			<th>Category 5</th>
+		</tr>
+		<tr class="amount">
+			<td class="money" id="c1q1" onclick="Alert.render('Question1'); disableMoney()">$100</td>
+			<td id="c2q1" onclick="Alert.render('Question1');">$100</td>
+			<td id="c3q1" onclick="Alert.render('Question1');">$100</td>
+			<td id="c4q1" onclick="Alert.render('Question1');">$100</td>
+			<td id="c5q1" onclick="Alert.render('Question1');">$100</td>
+		</tr>
+		<tr class="amount">
+			<td onclick="Alert.render('Question1');">$200</td>
+			<td onclick="Alert.render('Question1');">$200</td>
+			<td onclick="Alert.render('Question1');">$200</td>
+			<td onclick="Alert.render('Question1');">$200</td>
+			<td onclick="Alert.render('Question1');">$200</td>
+		</tr>
+		<tr class='amount'>
+			<td onclick="Alert.render('Question1');">$300</td>
+			<td onclick="Alert.render('Question1');">$300</td>
+			<td onclick="Alert.render('Question1');">$300</td>
+			<td onclick="Alert.render('Question1');">$300</td>
+			<td onclick="Alert.render('Question1');">$300</td>
+		</tr>
+		<tr class='amount'>
+			<td onclick="Alert.render('Question1');">$400</td>
+			<td onclick="Alert.render('Question1');">$400</td>
+			<td onclick="Alert.render('Question1');">$400</td>
+			<td onclick="Alert.render('Question1');">$400</td>
+			<td onclick="Alert.render('Question1');">$400</td>
+		</tr>
+		<tr class='amount'>
+			<td onclick="Alert.render('Question1');">$500</td>
+			<td onclick="Alert.render('Question1');">$500</td>
+			<td onclick="Alert.render('Question1');">$500</td>
+			<td onclick="Alert.render('Question1');">$500</td>
+			<td onclick="Alert.render('Question1');">$500</td>
+		</tr>
 	
 	</table>
 	
