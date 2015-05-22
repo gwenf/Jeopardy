@@ -45,6 +45,7 @@ td {
 	font-size: 1.3em;
 }
 
+/*
 button {
 	font-size: 1.2em;
 	background: -webkit-linear-gradient(top, dodgerblue, #04f);
@@ -55,6 +56,7 @@ button {
 button:hover {
 	background-color: #05e;
 }
+*/
 
 .amount {
 	background-color: dodgerblue;
